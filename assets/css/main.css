@@ -60,6 +60,7 @@ header,body,main,footer {
 }
 .banner {
   position: relative;
+  background-image: url(https://w.wallpaperkiss.com/wimg/s/160-1606911_small.png);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
