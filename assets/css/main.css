@@ -114,15 +114,6 @@ main {
   /* padding: 50px 10%; */
   background-color: #1e2528; 
 } 
-.separate{
-  border-color: 1px groove #bf0a0d; 
-  text-shadow:0 0 10px #e6e1c21a;
-  /* border-style: groove; */
-  /* border-width: 4px; */
-  /* margin: 0; */
-  margin: 1% 10% 1% 10%;
-
-}
 
 main p {
   margin-bottom: 60px;
@@ -140,24 +131,19 @@ main p {
 }
 .portofolio{
   box-shadow: 0 0 10px #bf0a0d;
-  /* background-color: #7e1c1366; */
 }
 .skills{
   box-shadow: 0 0 10px #bf0a0d;
-  /* background-color: #bf0a0d; */
 }
 
 .experience{
   box-shadow: -10px 0 10px #bf0a0d;
-  /* background-color: #1e2528; */
 }
 
 .contact{
-  /* background-color: #6d9788; */
   align-items: center;
   justify-content: center;
   padding-bottom: 50px;
-  /* padding: 50px 10%; */
 }
 
 .list-contact{
