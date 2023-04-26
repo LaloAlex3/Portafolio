@@ -198,6 +198,11 @@ label {
 }
 .info-contact input{
   width: 100%;
+  color:#1e2528;
+}
+.info-contact textarea{
+  width: 100%;
+  color:#1e2528;
 }
 footer{
   display: flex;
