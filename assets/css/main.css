@@ -1,0 +1,165 @@
+*::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: #1e2528;
+}
+*::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+*::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+  display: none;
+} 
+*::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #6d9788;
+  border-radius: 20px;
+  border: 2px  #1e2528;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Euclid Circular A", "Poppins";
+}
+.navbar{
+  background-color:  #1e2528;;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  color:#e6e1c2;
+}
+.navbar-brand{
+  color: #e6e1c2;
+}
+.navbar-brand:hover{
+  color: #7e1c13;
+  border-radius: 5%;
+}
+.nav-item a:hover{
+  background-color: #7e1c13;
+  color: #e6e1c2;
+  border-radius: 5%;
+}
+.nav-link{
+  color: #e6e1c2;
+}
+.banner {
+  position: relative;
+}
+
+.banner > .infoDeveloper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 0 10%;
+  background: #1e2528A6;
+}
+
+.banner > .infoDeveloper img {
+  width: 300px;
+  height: 300px;      
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.banner h2 {
+  margin-bottom: 10px;
+  font-size: 60px;
+  color: #e6e1c2
+}
+
+.banner h3 {
+  margin: 0;
+  font-size: 40px;
+  color: #e6e1c2
+}
+
+.images {
+  display: flex;
+}
+
+.images > img {
+  flex-shrink: 0;
+  width: 32vw;
+  height: auto;
+  filter: grayscale(1.0);
+}
+
+main {
+  /* padding: 50px 10%; */
+  font-size: 30px;
+  background-color: blue;
+}
+
+main p {
+  margin-bottom: 60px;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+
+.subtitle{ 
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  color: #e6e1c2
+}
+.portofolio{
+  background-color: #7e1c13;
+}
+.skills{
+  background-color: #bf0a0d;
+}
+
+.experience{
+  background-color: #1e2528;
+}
+
+.contact{
+  background-color: #6d9788;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 10%;
+}
+.list-contact{
+  display: flex;
+  list-style: none;
+}
+.list-contact li{
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 4;
+}
+
+.contact-icon{
+  box-shadow: 0 0px 6px #1e2528;
+  background-color: #e6e1c2a6;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 10% 10%;
+}
+
+footer{
+  display: flex;
+  background-color: #1e2528;
+  color: #e6e1c2;
+  padding: 1.5% 10%;
+  flex-grow: 1;
+  justify-content: center;
+}
