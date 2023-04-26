@@ -33,7 +33,7 @@ header,body,main,footer {
 }
 .navbar{
   background-color:  #1e2528;;
-  box-shadow: 0 0 10px #bf0a0d33;
+  box-shadow: 0 0 10px #6d978833;
   color:#e6e1c2;
 }
 .navbar-brand{
@@ -52,7 +52,7 @@ header,body,main,footer {
   color: #1e2528;
 }
 .nav-item a:hover{
-  color: #bf0a0d;
+  color: #6d9788;
   text-shadow: 0 0 10px #1e2528;
 }
 .nav-link{
@@ -60,10 +60,11 @@ header,body,main,footer {
 }
 .banner {
   position: relative;
-  background-image: url(https://w.wallpaperkiss.com/wimg/s/160-1606911_small.png);
+  /* background-image: url(https://w.wallpaperkiss.com/wimg/s/160-1606911_small.png);
   background-repeat: no-repeat;
   background-size:cover;
-  background-position: center;
+  background-position: center; */
+  background-color: #1ca39e;
 }
 
 .banner > .infoDeveloper {
@@ -130,14 +131,14 @@ main p {
   flex-grow: 1;
 }
 .portofolio{
-  box-shadow: 0 0 10px #bf0a0d;
+  box-shadow: 0 0 10px #6d9788;
 }
 .skills{
-  box-shadow: 0 0 10px #bf0a0d;
+  box-shadow: 0 0 10px #6d9788;
 }
 
 .experience{
-  box-shadow: -10px 0 10px #bf0a0d;
+  box-shadow: -10px 0 10px #6d9788;
 }
 
 .contact{
@@ -171,7 +172,7 @@ main p {
 }
 .contact-icon:hover{
   background-color:#e6e1c2 ;
-  box-shadow: 0 0 15px #bf0a0d;
+  box-shadow: 0 0 15px #6d9788;
 }
 .info-contact{
   align-items: center;
@@ -200,7 +201,7 @@ label {
 }
 footer{
   display: flex;
-  background-color: #7e1c13;
+  background-color: #6d9788;
   color: #e6e1c2;
   padding: 1.5% 10%;
   flex-grow: 1;
