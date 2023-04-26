@@ -60,7 +60,6 @@ header,body,main,footer {
 }
 .banner {
   position: relative;
-  background-image: url(/assets/pictures/6.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
