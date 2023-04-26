@@ -25,7 +25,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/page-wrap.css">
+
 
     <!-- JavaScript -->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
@@ -76,14 +76,14 @@
                                 <a href="#experience" class="nav-link">Experiencia</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#contact" class="nav-link">Contact</a>
+                                <a href="#contact" class="nav-link">Contacto</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
-        <section id="banner" class="banner">
+        <section id="banner" class="banner ">
             <!-- Informacion de Usuario -->
             <div class="infoDeveloper">
                 <div>
@@ -93,12 +93,10 @@
                 <img src="assets/pictures/avatar.png" />
             </div>
             <!-- Imagenes de Fondo en Inicio -->
-            <div class="images">
+            <div class="images ">
                 <img height="874" src="assets/pictures/2.JPG" width="1240" />
                 <img height="874" src="assets/pictures/3.jpg" width="1240" />
                 <img height="874" src="assets/pictures/4.jpg" width="1240" />
-                <img height="874" src="assets/pictures/5.JPG" width="1240" />
-                <img height="874" src="assets/pictures/6.jpg" width="1240" />
             </div>
         </section>
     </header>
@@ -106,7 +104,8 @@
     <!-- Toda la parte importante de la applicacion  -->
     <main>
         <!-- Portafolio -->
-        <div id="portofolio" class="portofolio">
+        <!-- <hr class="separate" id="lineaPortafolio"> -->
+        <div id="portofolio" class="portofolio ">
             <h2 class="subtitle">Portafolio</h2>
             <br>
             <p></p>
@@ -117,6 +116,7 @@
             <br>
         </div>
         <!-- Skills -->
+        <!-- <hr class="separate" id="lineaSkills"> -->
         <div id="skills" class="skills">
             <h2 class="subtitle">Habilidades</h2>
             <br>
@@ -128,6 +128,7 @@
             <br>
         </div>
         <!-- Experiencia -->
+        <!-- <hr class="separate" id="lineaExperience"> -->
         <div id="experience" class="experience">
             <h2 class="subtitle">Experiencia</h2>
             <br>
@@ -139,11 +140,13 @@
             <br>
         </div>
         <!-- Contacto -->
+        <!-- <hr class="separate" id="lineaContact"> -->
         <div id="contact" class="contact">
             <h2 class="subtitle">Contacto</h2>
             <ul class="list-contact">
                 <li>
-                    <a href="https://www.linkedin.com/in/eduardo-alejandro-rodriguez-cestelos-553763189" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/eduardo-alejandro-rodriguez-cestelos-553763189" target="_blank"
+                        rel="noopener noreferrer">
                         <img class="contact-icon" src="assets/pictures/icons/icons8-linkedin-60.png" alt="LinkedIn">
                     </a>
                 </li>
@@ -163,13 +166,16 @@
                     </a>
                 </li>
             </ul>
-            
-            <h3>Nombre</h3>
-            <input></input>
-            <h3>Correo</h3>
-            <input></input>
-            <h3>Mensaje</h3>
-            <input></input>
+            <div class="info-contact">
+                <form  action="" method="post">
+                    <label class="form-label">Nombre</label>
+                        <input></input>
+                    <label class="form-label">Correo</label>
+                        <input></input>
+                    <label class="form-label">Mensaje</label>
+                        <textarea class="mensage"></textarea>
+                </form>
+            </div>
         </div>
     </main>
 
