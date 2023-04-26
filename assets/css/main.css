@@ -15,7 +15,7 @@
 *::-webkit-scrollbar-thumb {
   background-color: #6d9788;
   border-radius: 20px;
-  border: 2px  #1e2528;
+  border: 2px solid #1e2528;
 }
 
 *::-webkit-scrollbar-track {
@@ -35,8 +35,12 @@ body {
 .navbar-brand{
   color: #e6e1c2;
 }
+.navbar-togller-icon{
+  color: #e6e1c2;
+}
 .navbar-brand:hover{
-  color: #7e1c13;
+  color: #e6e1c2;
+  background-color: #7e1c13A6;
   border-radius: 5%;
 }
 .nav-item a:hover{
