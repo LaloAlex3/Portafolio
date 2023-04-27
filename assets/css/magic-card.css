@@ -1,0 +1,145 @@
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }  
+  @keyframes spin {
+    0% {
+        --rotate: 0deg;
+    }
+
+    100% {
+        --rotate: 360deg;
+    }
+}
+.paint-cards{
+    padding-bottom: 10%;
+}
+.cards ul{
+    display: flex;
+    margin: 0 2% 0 2%;
+    justify-content: start;
+    align-items: start;
+    align-self: auto;
+    gap: 15px 15px; /* row-gap column gap */
+    row-gap: 15px;
+    flex-grow: 4;
+    flex-wrap: wrap;  
+}
+.complete-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.complete-card a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Euclid Circular A", "Poppins";
+    font-weight: bold;
+}
+.complete-card img{
+    margin-top: 5%;
+    width: 70%;
+    height: 70%;
+    object-fit:contain;
+    transition: scale .5s;
+}
+.card {
+    --card-height: 20vh;
+    --card-width: calc(var(--card-height) / 1);
+    background: #191c29;
+    width: var(--card-width);
+    height: var(--card-height);
+    padding: 3px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 1em;
+    color: rgb(88 199 250 / 0%);
+    cursor: pointer;
+    font-family: "Euclid Circular A", "Poppins";
+}
+.card h3{
+    font-size: 1em;
+    margin-top: 5%;
+}
+.frame-card{
+    color: rgb(0 0 0 / 100%);
+    background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+    transition: padding .5s;
+    border-radius: 6%;
+    animation: spin 2.5s linear infinite;
+}
+.card:hover {
+    color: rgb(255 255 255 / 100%);
+    transition: color 1s;
+}
+.card:hover > img{
+    scale: 110%;
+    transition: scale 1s;
+}
+.frame-card:hover{
+    background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+    padding: 2.5%;
+    transition: padding 1s;
+    /* background-image: linear-gradient(var(--rotate), #b10000, #76c000 43%, #4e00c2); */
+    animation: spin 5s linear infinite;
+}
+
+
+@media (max-width:1000px){
+    .card{
+        width: 90px;
+        height: 90px;
+    } 
+    .card h3{
+        font-size: 10px;
+    }
+    
+    .complete-card img{
+        margin-top: 10%;
+        width: 70%;
+        height: 70%;
+    } 
+    .cards ul{
+        gap: 15px 25px; /* row-gap column gap */
+        row-gap: 15px;  
+    }
+  }
+  @media (max-width:741px){
+    .card{
+        width: 70px;
+        height: 70px;
+    } 
+    .card h3{
+        font-size: 10px;
+    }
+    .complete-card img{
+        margin-top: 10%;
+        width: 60%;
+        height: 60%;
+    } 
+    .cards ul{
+        gap: 10px 20px; /* row-gap column gap */
+        row-gap: 10px;
+    }
+  }
+  @media (max-width:490px){
+    .card{
+        width: 50px;
+        height: 50px;
+    }
+    .card h3{
+        font-size: 5px;
+    } 
+    .complete-card img{
+        margin-top: 25%;
+        width: 60%;
+        height: 60%;
+    } 
+
+  }

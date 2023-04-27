@@ -254,8 +254,46 @@ footer{
     filter: grayscale(1.0);
   }
 }
-
-@media (max-width:376px){
+@media (max-width:741px){
+  .container{
+    /* Reverse the axis of the header, making it vertical. */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-center;
+    align-items: flex-center;
+    /* Align items to the begining (the left) of the header. */
+  }
+  .banner{
+    margin-top: 7%;
+  }
+  .banner h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #e6e1c2
+  }
+  
+  .banner h3 {
+    margin: 0;
+    font-size: 10px;
+    color: #e6e1c2
+  }
+  .banner > .infoDeveloper img {
+    width: 120px;
+    height: 120px;      
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .nav-link{
+    color:#1e2528;
+  }
+  .images > img {
+    flex-shrink: 0;
+    width: 21vw;
+    height: auto;
+    filter: grayscale(1.0);
+  }
+}
+@media (max-width:490px){
   .navbar-brand{
     font-size: 15px;
   }
@@ -264,7 +302,7 @@ footer{
     font-size: 15px;
   }
   .banner{
-    margin-top: 12%;
+    margin-top: 9%;
     background-image: url(/assets/pictures/6.jpg);
     background-size: cover;
   }
@@ -295,14 +333,14 @@ footer{
     padding-left: 10%;
     padding-right: 10%;
   }
-  .info-contact h3{
-    font-size: 15px;
+  .info-contact label{
+    font-size: 10px;
   }
   .info-contact input{
     width: 100%;
-    font-size: 15px;
+    font-size: 10px;
   }
-  footer{
+  footer p{
     font-size: 10px;
   }
   .contact-icon{

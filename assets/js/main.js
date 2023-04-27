@@ -4,7 +4,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.utils.toArray("section").forEach((section, index) => {
   const w = section.querySelector(".images");
-  const [x, xEnd] = [w.scrollWidth * -1, 0];
+  const [x, xEnd] = [w.scrollWidth * -1.25, 0];
   gsap.fromTo(
     w,
     { x },
@@ -12,7 +12,7 @@ gsap.utils.toArray("section").forEach((section, index) => {
       x: xEnd,
       scrollTrigger: {
         trigger: section,
-        scrub: 1,
+        scrub: .5,
       },
     }
   );
