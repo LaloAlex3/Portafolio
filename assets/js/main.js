@@ -137,8 +137,3 @@ const init = async () => {
   pintarSkills();
 }
 init();
-
-
-const correoEnviado = () => {
-  alter("Gracias por escribirme, pronto me pondre en contacto contigo, buen día !");
-}
