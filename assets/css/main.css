@@ -110,7 +110,7 @@ header,body,main,footer {
   color: #e6e1c2
 }
 
-.images {
+.images,.aboutme-image {
   display: flex;
 }
 
@@ -140,6 +140,14 @@ main p {
   justify-content: center;
   flex-grow: 1;
 }
+.subtitle-about{
+  padding-top: 5%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
 .subtitle-habilidades{
   padding-top: 5%;
   
@@ -147,6 +155,27 @@ main p {
   align-items: center;
   justify-content: center;
   flex-grow: 1;
+}
+
+.about__container{
+  display: flex;
+  flex-direction: row;
+  padding: 2% 5% 2% 5%;
+}
+.aboutme-image > img{
+  flex-shrink: 0;
+  width: 20vw;
+  height: auto;
+}
+.aboutme-text{
+  padding: 5% 5% 0% 5%;
+  text-align: justify;
+  line-height: 1.5;
+}
+.aboutme-text p{
+  font-size: 110%;
+
+  color: #e6e1c2
 }
 .portofolio{
   box-shadow: 0 0 10px #6d9788;

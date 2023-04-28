@@ -19,17 +19,19 @@ gsap.utils.toArray("section").forEach((section, index) => {
 
 //animated-tab-bar
 "use strict";
+const bgColorsBody = ["#77b1a9", "#3d7b80", "#6d9788"];
 const body = document.querySelector("#skills");
 const selectOptions = document.querySelector("#select-options");
-const bgColorsBody = ["#77b1a9", "#3d7b80", "#6d9788"];
 const menu = body.querySelector(".menu");
 const menuItems = menu.querySelectorAll(".menu__item");
 const menuBorder = menu.querySelector(".menu__border");
 let activeItem = menu.querySelector(".active");
 
+//Select options from skills
 const codingSkills = document.querySelector("#coding-skills");
 const devopsSkills = document.querySelector("#devops-skills");
 const designSkills = document.querySelector("#design-skills");
+
 const coding = document.getElementById("skills-cards-codign");
 const devop = document.getElementById("skills-cards-devops");
 const design = document.getElementById("skills-cards-design");
@@ -38,9 +40,8 @@ const fileSkills = "assets/json/skills.json";
 const fileProyects = "assets/json/proyects.json";
 const fileExperience = "assets/json/experience.json";
 const fileEducation = "assets/json/education.json";
-const fileContact = "assets/json/contact.json";
 //Declaramos una variable para guardar los datos del archivo
-let dataSkills, dataProyects, dataExperience, dataEducation, dataContact;
+let dataSkills, dataProyects, dataExperience, dataEducation;
 
 
 function showSkills(index) {
@@ -97,7 +98,6 @@ const loadData = async () => {
   // dataProyects = await fetch(fileProyects).then(async (response) => await response.json());
   // dataExperience = await fetch(fileExperience).then(async (response) => await response.json());
   // dataEducation = await fetch(fileEducation).then(async (response) => await response.json());
-  // dataContact = await fetch(fileContact).then(async (response) => await response.json());
 }
 
 const pintarSkills = async () => {
@@ -137,3 +137,8 @@ const init = async () => {
   pintarSkills();
 }
 init();
+
+
+const correoEnviado = () => {
+  alter("Gracias por escribirme, pronto me pondre en contacto contigo, buen día !");
+}

@@ -69,10 +69,13 @@
                                 <a href="#banner" class="nav-link">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a data-scroll="portofolio" href="#portofolio" class="nav-link">Portafolio</a>
+                                <a data-scroll="about-me" href="#AboutMe" class="nav-link">Sobre mí</a>
                             </li>
                             <li class="nav-item">
                                 <a data-scroll="skills" href="#skills" class="nav-link">Habilidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-scroll="portofolio" href="#portofolio" class="nav-link">Portafolio</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a data-scroll="experience" href="#experience" class="nav-link">Experiencia</a>
@@ -105,16 +108,27 @@
     <!-- MAIN -->
     <!-- Toda la parte importante de la applicacion  -->
     <main>
-        <!-- Portafolio -->
-        <div id="portofolio" class="portofolio ">
-            <h2 class="subtitle">Portafolio</h2>
-            <br>
-            <p></p>
-            <br>
-            <p></p>
-            <br>
-            <p></p>
-            <br>
+        <div id="AboutMe" class="aboutMe">
+            <h2 class="subtitle-about">Sobre mí</h2>
+            <div class="about__container">
+                <div class="aboutme-image">
+                    <img height="874" src="assets/pictures/about-me.jpg" width="1240" />
+                </div>
+                <div class="aboutme-text">
+                    <p>
+                        Soy un desarrollador de software con experiencia en el desarrollo de aplicaciones web y
+                        móviles. Me apasiona la tecnología y el desarrollo de software, por lo que siempre estoy
+                        aprendiendo nuevas tecnologías y mejorando mis habilidades.
+                    </p>
+                    <p>
+                        Me considero una persona responsable, creativa, con iniciativa y puntualidad, asumo con
+                        agrado los retos y metas que su organización me pudiera plantear; con buen manejo de las
+                        relaciones interpersonales, facilidad para trabajar en equipo, en condiciones de alta
+                        presión, así como para resolver problemas eficientemente y lograr las metas trazadas por la
+                        empresa y mi grupo de trabajo.
+                    </p>
+                </div>
+            </div>
         </div>
         <!-- Skills -->
         <div id="skills" class="skills">
@@ -185,13 +199,13 @@
             </div>
             <!-- Donde se van a pintar las cartas -->
             <div class="select-options" id="select-options">
-                <div class="paint-cards" id="skills-cards-codign" >
-                    <div class="cards" >
+                <div class="paint-cards" id="skills-cards-codign">
+                    <div class="cards">
                         <ul id="coding-skills">
                         </ul>
                     </div>
                 </div>
-                <div class="paint-cards" id="skills-cards-design" style="display: none;" >
+                <div class="paint-cards" id="skills-cards-design" style="display: none;">
                     <div class="cards">
                         <ul id="design-skills" id="">
                         </ul>
@@ -204,6 +218,17 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- Portafolio -->
+        <div id="portofolio" class="portofolio ">
+            <h2 class="subtitle">Portafolio</h2>
+            <br>
+            <p></p>
+            <br>
+            <p></p>
+            <br>
+            <p></p>
+            <br>
         </div>
         <!-- Experiencia -->
         <!-- <hr class="separate" id="lineaExperience"> -->
@@ -245,13 +270,30 @@
                 </li>
             </ul>
             <div class="info-contact">
-                <form action="" method="post">
-                    <label class="form-label">Nombre</label>
-                    <input></input>
-                    <label class="form-label">Correo</label>
-                    <input></input>
-                    <label class="form-label">Mensaje</label>
-                    <textarea class="mensage"></textarea>
+                <form target="_blank" action="https://formsubmit.co/810d667e6ec40799be8fae66660643e6" method="POST">
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="mb-2 col">
+                                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                <input type="text" name="name" class="form-control" placeholder="Nombre Completo"
+                                    required>
+                            </div>
+                            <div class="mb-1 col">
+                                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                                <input type="email" name="email" class="form-control" placeholder="Correo de contacto"
+                                    required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea placeholder="Deja aquí tu mensaje, y me comunicare contigo" class="form-control"
+                            name="message" rows="10" required></textarea>
+                    </div>
+                    <div style="display: flex; justify-content: center; align-items: center; padding-top: 2%;">
+                        <button type="submit" class="btn btn-lg btn-outline-light btn-block">Enviar correo</button>
+                        <input type="hidden" name="_autoresponse" value="Gracias por escribirme, pronto me pondre en contacto contigo, buen día!">
+                    </div>
                 </form>
             </div>
         </div>
