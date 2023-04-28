@@ -147,7 +147,7 @@ main {
 }
 
 main p {
-  margin-bottom: 60px;
+  margin-bottom: 5%;
   opacity: 0.6;
   line-height: 1.5;
 }
@@ -186,11 +186,12 @@ main p {
 }
 
 .aboutme-image>img {
-  display: flex;
+  display: none;
   flex-shrink: 0;
   width: 20vw;
   height: auto;
   transition: display 5s;
+
 }
 
 .aboutme-text {

@@ -27,6 +27,7 @@ const menuItems = menu.querySelectorAll(".menu__item");
 const menuBorder = menu.querySelector(".menu__border");
 let activeItem = menu.querySelector(".active");
 
+
 //Select options from skills
 const codingSkills = document.querySelector("#coding-skills");
 const devopsSkills = document.querySelector("#devops-skills");
@@ -106,8 +107,9 @@ const pintarSkills = async () => {
     let typeSkill = skill.type;
     tem = `
         <li class="complete-card">
+          <p class="card-name">${skill.alter}</p>
           <div class="frame-card">
-            <div class="card">
+            <div class="card" id="card">
               <img src="${skill.img}"
                 alt="${skill.alter}" srcset="">
               <h3 class="name-card">${skill.level}<br>${skill.time}</h3>
@@ -136,4 +138,6 @@ const init = async () => {
   await loadData();
   pintarSkills();
 }
+
 init();
+

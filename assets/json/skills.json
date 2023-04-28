@@ -109,7 +109,7 @@
         "level":"Básico",
         "time":"1 año",
         "img":"https://smartinwi.com/wp-content/uploads/2020/09/autodesk-inventor-logo.png",
-        "alter":"AutoDesk Inventor"
+        "alter":"Inventor"
     },
     {
         "type":"devOps",
@@ -123,7 +123,7 @@
         "level":"Intermedio",
         "time":"3 años",
         "img":"https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
-        "alter":"MySQL Workbench"
+        "alter":"MySQL"
     },
     {
         "type":"devOps",
