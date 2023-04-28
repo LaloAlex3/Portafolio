@@ -1,8 +1,8 @@
 .options {
 
     box-sizing: border-box;
-    --bgColorMenu : #1d1d27;
-    --duration: .7s;    
+    --bgColorMenu: #1d1d27;
+    --duration: .7s;
 
 }
 
@@ -12,10 +12,10 @@ options *::after {
     box-sizing: inherit;
 }
 
-.options{
+.options {
     margin: 0;
     display: flex;
-    padding-top: 5% ;
+    padding-top: 5%;
     padding-bottom: .25%;
     overflow: hidden;
     align-items: center;
@@ -25,7 +25,7 @@ options *::after {
     transition: background-color var(--duration);
 }
 
-.menu{
+.menu {
     margin: 0;
     display: flex;
     /* Works well with 100% width  */
@@ -38,7 +38,7 @@ options *::after {
     background-color: var(--bgColorMenu);
 }
 
-.menu__item{
+.menu__item {
     all: unset;
     flex-grow: 1;
     z-index: 100;
@@ -50,10 +50,10 @@ options *::after {
     will-change: transform;
     justify-content: center;
     padding: 0.55em 0 0.85em;
-    transition: transform var(--timeOut , var(--duration));
+    transition: transform var(--timeOut, var(--duration));
 }
 
-.menu__item::before{
+.menu__item::before {
     content: "";
     z-index: -1;
     width: 4.2em;
@@ -66,15 +66,15 @@ options *::after {
 
 
 .menu__item.active {
-    transform: translate3d(0, -.8em , 0);
+    transform: translate3d(0, -.8em, 0);
 }
 
-.menu__item.active::before{
-    transform: scale(1);
+.menu__item.active::before {
+    transform: scale(1.5);
     background-color: var(--bgColorItem);
 }
 
-.icon{
+.icon {
     width: 2.6em;
     height: 2.6em;
     stroke: white;
@@ -85,7 +85,8 @@ options *::after {
     stroke-linejoin: round;
     stroke-dasharray: 400;
 }
-.icon-devops{
+
+.icon-devops {
     width: 4.5em;
     height: 4.5em;
     stroke: white;
@@ -96,7 +97,8 @@ options *::after {
     stroke-linejoin: round;
     stroke-dasharray: 400;
 }
-.select-options{
+
+.select-options {
     background-color: #77b1a9;
 }
 
@@ -128,8 +130,64 @@ options *::after {
 }
 
 
-@media screen and (max-width: 50em) {
+@media (max-width:1000px) {
+    .menu__item{
+        display: flex;
+        flex-direction: column;
+        font-size: 100%;
+    }
+    .icon {
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    .icon-devops {
+        width: 2.7em;
+        height: 2.7em;
+    }
+}
+
+@media (max-width:741px) {
+
+    .menu__item {
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+        font-size: 80%;
+    }
+    .icon {
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    .icon-devops {
+        width: 2.7em;
+        height: 2.7em;
+    }
+}
+
+@media (max-width:490px) {
     .menu{
-        font-size: .8em;
+        padding-top: 2%;
+    }
+    .menu__item {
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+        font-size: 70%;
+    }
+    .menu__item.active::before {
+        transform: scale(1.2);
+    }
+    .icon {
+        width: 1.6em;
+        height: 1.6em;
+    }
+
+    .icon-devops {
+        width: 1.6em;
+        height: 1.6em;
     }
 }

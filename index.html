@@ -39,7 +39,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
     <script defer src="assets/js/main.js"></script>
-    <script defer src="assets/js/animated-tab-bar.js"></script>
 </head>
 
 <body>
@@ -131,6 +130,7 @@
                             <polyline stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="3" points="8 6 2 12 8 18"></polyline>
                         </svg>
+                        Coding
                     </button>
                     <!-- DevOps Icon -->
                     <button class="menu__item" style="--bgColorItem: #3d7b80;">
@@ -163,6 +163,7 @@
                                 d="m90.44 138.35h-6.27l6.63 17.34h2.86v-7.39zm6.45.03h6.27l-6.64 17.34h-2.86v-7.39zm-36.89-2.47a15.09 15.09 0 0 0 -7.1-2.62c-3.38-.32-7 .09-10.13.09v22.29h.15c.6.07 1.2.13 1.81.17a39.73 39.73 0 0 0 7.22-.06c4.59-.51 7.54-2 9.35-3.94a10.11 10.11 0 0 0 2.55-6.54v-.53-.28c-.04-3.17-.95-6.36-3.85-8.58zm-5.1 13.62c-1.89 1.06-4.19.8-6.27.8v-11.61c2.21 0 4.7-.29 6.64 1.07 3.22 2.27 3.1 7.78-.4 9.74zm26.52 1.74c-.51-.43-1.16-1.16-1.85-1.28-1.1-.15-2.47 1.33-3.69 1.45-1.9.19-3.27-1.12-4-2.7h11.56c0-3.2-.27-6.57-3-8.77-5.07-4.14-13.39-1.08-14.32 5.45-1 6.88 4.41 11.32 11 10.46a8.64 8.64 0 0 0 4.42-2c.45-.4 1.11-.95.78-1.6a3.72 3.72 0 0 0 -.9-1.01zm-3.69-5.67h-5.9a3 3 0 0 1 5.9 0z"
                                 fill="#fff" />
                         </svg>
+                        DevOps
                     </button>
                     <!-- Design Icon  -->
                     <button class="menu__item" style="--bgColorItem: #6d9788;">
@@ -177,61 +178,29 @@
                             <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="2" x1="16.848" x2="20.076" y1="3.924" y2="7.153"></line>
                         </svg>
+                        Design
                     </button>
                     <div class="menu__border"></div>
                 </div>
             </div>
+            <!-- Donde se van a pintar las cartas -->
             <div class="select-options" id="select-options">
-                <div id="Coding">
-                    <!-- Donde se van a pintar las cartas -->
-                    <div class="paint-cards" id="skills-cards">
-                        <div class="cards">
-                            <ul id="skills-list-cards">
-                                <li class="complete-card">
-                                    <div class="frame-card">
-                                        <div class="card">
-                                            <img src="https://seeklogo.com/images/C/c-logo-1B1817C041-seeklogo.com.png"
-                                                alt="" srcset="">
-                                            <h3 class="name-card">Intermedio</h3>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="paint-cards" id="skills-cards-codign" >
+                    <div class="cards" >
+                        <ul id="coding-skills">
+                        </ul>
                     </div>
                 </div>
-                <div id="design">
-                    <div class="paint-cards" id="skills-cards">
-                        <div class="cards">
-                            <ul id="skills-list-cards">
-                                <li class="complete-card">
-                                    <div class="frame-card">
-                                        <div class="card">
-                                            <img src="https://seeklogo.com/images/C/c-logo-1B1817C041-seeklogo.com.png"
-                                                alt="" srcset="">
-                                            <h3 class="name-card">Intermedio</h3>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="paint-cards" id="skills-cards-design" style="display: none;" >
+                    <div class="cards">
+                        <ul id="design-skills" id="">
+                        </ul>
                     </div>
                 </div>
-                <div id="devops">
-                    <div class="paint-cards" id="skills-cards">
-                        <div class="cards">
-                            <ul id="skills-list-cards">
-                                <li class="complete-card">
-                                    <div class="frame-card">
-                                        <div class="card">
-                                            <img src="https://seeklogo.com/images/C/c-logo-1B1817C041-seeklogo.com.png"
-                                                alt="" srcset="">
-                                            <h3 class="name-card">Intermedio</h3>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="paint-cards" id="skills-cards-devops" style="display: none;">
+                    <div class="cards">
+                        <ul id="devops-skills">
+                        </ul>
                     </div>
                 </div>
             </div>

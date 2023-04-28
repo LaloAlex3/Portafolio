@@ -1,42 +1,177 @@
 [
-    [{
+    {
         "type":"coding",
-        "name":"",
-        "img":""
+        "level":"Intermedio",
+        "time":"3 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/java-4.svg",
+        "alter":"Java"
     },
     {
         "type":"coding",
-        "name":"",
-        "img":""
+        "level":"Intermedio",
+        "time":"3 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/c-1.svg",
+        "alter":"C"
+    },
+    {  
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"3 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/c.svg",
+        "alter":"C++"
+    },
+    {  
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"3 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
+        "alter":"JavaScript"	
     },
     {
         "type":"coding",
-        "name":"",
-        "img":""
-    }
-    ],
-    [
-        {
-            "type":"design",
-            "name":"",
-            "img":""
-        }
-    ],
-    [
-        {
+        "level":"Básico",
+        "time":"6 meses",
+        "img":"https://cdn.worldvectorlogo.com/logos/c--4.svg",
+        "alter":"C#"
+    },
+    {
+        "type":"coding",
+        "level":"Básico",
+        "time":"6 meses",
+        "img":"https://www.vectorlogo.zone/logos/python/python-vertical.svg",
+        "alter":"Python"
+    },
+    {
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png",
+        "alter":"HTML"
+    },
+    {
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png",
+        "alter":"CSS"
+    },
+    {
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://www.vectorlogo.zone/logos/php/php-icon.svg",
+        "alter":"php"
+    },
+    {
+        "type":"design",
+        "level":"Avanzado",
+        "time":"5 años",
+        "img":"https://seeklogo.com/images/A/adobe-lightroom-logo-FF1AAA233D-seeklogo.com.png",
+        "alter":"Lightroom"
+    },
+    {
+        "type":"design",
+        "level":"Avanzado",
+        "time":"5 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg",
+        "alter":"Photoshop"
+    },
+    {
+        "type":"design",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg",
+        "alter":"Bootstrap"
+    },
+    {
+        "type":"design",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/excel-4.svg",
+        "alter":"Excel"
+    },
+    {
+        "type":"design",
+        "level":"Avanzado",
+        "time":"4 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/word-1.svg",
+        "alter":"Word"
+    },
+    {
+        "type":"design",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://www.vectorlogo.zone/logos/adobe_acrobat/adobe_acrobat-tile.svg",
+        "alter":"Adobe Acrobat"
+    },
+    {
+        "type":"design",
+        "level":"Básico",
+        "time":"1 año",
+        "img":"https://smartinwi.com/wp-content/uploads/2020/09/autodesk-inventor-logo.png",
+        "alter":"AutoDesk Inventor"
+    },
+    {
         "type":"devOps",
-        "name":"",
-        "img":""
-        },
-        {
-            "type":"devOps",
-            "name":"",
-            "img":""
-        },
-        {
-            "type":"devOps",
-            "name":"",
-            "img":""
-        }        
-    ] 
+        "level":"Avanzado",
+        "time":"5 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg",
+        "alter":"Visual Studio Code"
+    },
+    {  
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"3 años",
+        "img":"https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
+        "alter":"MySQL Workbench"
+    },
+    {
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://www.vectorlogo.zone/logos/phpmyadmin/phpmyadmin-ar21.svg",
+        "alter":"phpMyAdmin"
+    },
+    {
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+        "alter":"Git"
+    },
+    {
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://cdn.iconscout.com/icon/free/png-512/free-github-1521500-1288242.png?f=avif&w=256",
+        "alter":"GitHub"
+    },
+    {
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/xampp.svg",
+        "alter":"Xampp"
+    },
+    {
+        "type":"devOps",
+        "level":"Básico",
+        "time":"6 meses",
+        "img":"https://cdn.worldvectorlogo.com/logos/postman.svg",
+        "alter":"postman"
+    },
+    {
+        "type":"devOps",
+        "level":"Básico",
+        "time":"6 meses",
+        "img":"https://cdn.worldvectorlogo.com/logos/npm.svg",
+        "alter":"npm"
+    },
+    {
+        "type":"devOps",
+        "level":"Básico",
+        "time":"6 meses",
+        "img":"https://cdn.worldvectorlogo.com/logos/nodejs.svg",
+        "alter":"nodejs"
+    }
 ]

@@ -13,7 +13,8 @@
     }
 }
 .paint-cards{
-    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 .cards ul{
     display: flex;
@@ -33,7 +34,7 @@
     justify-content: center;
 } 
 .complete-card a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-family: "Euclid Circular A", "Poppins";
     font-weight: bold;
@@ -48,7 +49,7 @@
 .card {
     --card-height: 21vh;
     --card-width: calc(var(--card-height) / 1);
-    background: #191c29;
+    background: #e6e1c2;
     width: var(--card-width);
     height: var(--card-height);
     padding: 5%;
@@ -75,7 +76,7 @@
     animation: spin 2.5s linear infinite;
 }
 .card:hover {
-    color: rgb(255 255 255 / 100%);
+    color: #1e2528;
     transition: color 1s;
 }
 .card:hover > img{
