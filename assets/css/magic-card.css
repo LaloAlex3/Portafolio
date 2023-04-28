@@ -17,8 +17,8 @@
 }
 .cards ul{
     display: flex;
-    margin: 0 2% 0 2%;
-    justify-content: start;
+    margin: 0 1% 0 1%;
+    justify-content:center;
     align-items: start;
     align-self: auto;
     gap: 15px 15px; /* row-gap column gap */
@@ -46,14 +46,14 @@
     transition: scale .5s;
 }
 .card {
-    --card-height: 20vh;
+    --card-height: 21vh;
     --card-width: calc(var(--card-height) / 1);
     background: #191c29;
     width: var(--card-width);
     height: var(--card-height);
-    padding: 3px;
+    padding: 5%;
     position: relative;
-    border-radius: 6px;
+    border-radius: 6%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -71,7 +71,7 @@
     color: rgb(0 0 0 / 100%);
     background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
     transition: padding .5s;
-    border-radius: 6%;
+    border-radius: 7.2%;
     animation: spin 2.5s linear infinite;
 }
 .card:hover {
@@ -85,11 +85,10 @@
 .frame-card:hover{
     background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
     padding: 2.5%;
-    transition: padding 1s;
-    /* background-image: linear-gradient(var(--rotate), #b10000, #76c000 43%, #4e00c2); */
+    transition: padding .5s;
+    border-radius: 6%;
     animation: spin 5s linear infinite;
 }
-
 
 @media (max-width:1000px){
     .card{
@@ -109,8 +108,9 @@
         gap: 15px 25px; /* row-gap column gap */
         row-gap: 15px;  
     }
-  }
-  @media (max-width:741px){
+}
+
+@media (max-width:741px){
     .card{
         width: 70px;
         height: 70px;
@@ -136,6 +136,7 @@
     .card h3{
         font-size: 5px;
     } 
+
     .complete-card img{
         margin-top: 25%;
         width: 60%;

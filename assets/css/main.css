@@ -43,16 +43,26 @@ header,body,main,footer {
   color: #e6e1c2;
   background-color: #e6e1c2;
 }
+.offcanvas{
+  background-color: #6d9788cc;
+}
+
 .navbar-brand:hover{
   color: #e6e1c2;
   text-shadow: 0 0 10px #1e2528;
   border-radius: 5%;
 }
 .offcanvas-title{
-  color: #1e2528;
+  color: #e6e1c2;
+}
+.btn-close{
+  background-color: #e6e1c2;
+}
+.offcanvas-body > ul > li > a {
+  color:#e6e1c2
 }
 .nav-item a:hover{
-  color: #6d9788;
+  color: #1e2528;
   text-shadow: 0 0 10px #1e2528;
 }
 .nav-link{
@@ -125,6 +135,14 @@ main p {
 .subtitle{ 
   padding-top: 5%;
   padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.subtitle-habilidades{
+  padding-top: 5%;
+  
   display: flex;
   align-items: center;
   justify-content: center;
