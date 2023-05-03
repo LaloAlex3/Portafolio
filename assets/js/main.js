@@ -19,7 +19,8 @@ gsap.utils.toArray("section").forEach((section, index) => {
 
 //animated-tab-bar
 "use strict";
-const bgColorsBody = ["#77b1a9", "#3d7b80", "#6d9788"];
+const images = ["https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg","https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_960_720.jpg","https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"];
+const bgColorsBody = ["#77b1a9a6", "#3d7b80a6", "#6d9788a6"];
 const body = document.querySelector("#skills");
 const selectOptions = document.querySelector("#select-options");
 const menu = body.querySelector(".menu");
@@ -41,6 +42,8 @@ const fileSkills = "assets/json/skills.json";
 const fileProyects = "assets/json/proyects.json";
 const fileExperience = "assets/json/experience.json";
 const fileEducation = "assets/json/education.json";
+const info = document.querySelector(".info-skill");
+const informacion = document.querySelector(".info");
 //Declaramos una variable para guardar los datos del archivo
 let dataSkills, dataProyects, dataExperience, dataEducation;
 
@@ -61,6 +64,7 @@ function showSkills(index) {
     design.style.display = "";
   }
 }
+
 function clickItem(item, index) {
   menu.style.removeProperty("--timeOut");
   if (activeItem == item) return;
@@ -69,11 +73,13 @@ function clickItem(item, index) {
     activeItem.classList.remove("active");
   }
   item.classList.add("active");
-  selectOptions.style.backgroundColor = bgColorsBody[index];
+  selectOptions.style.backgroundImage = `url(${images[index]})`;
   activeItem = item;
   offsetMenuBorder(activeItem, menuBorder);
   showSkills(index);
+  closeInfo();
 }
+
 function offsetMenuBorder(element, menuBorder) {
   const offsetActiveItem = element.getBoundingClientRect();
   const left = Math.floor(offsetActiveItem.left - menu.offsetLeft - (menuBorder.offsetWidth - offsetActiveItem.width) / 2) + "px";
@@ -100,13 +106,35 @@ const loadData = async () => {
   // dataExperience = await fetch(fileExperience).then(async (response) => await response.json());
   // dataEducation = await fetch(fileEducation).then(async (response) => await response.json());
 }
+let template = "";
+const chargeInfo = (name,descrip,link) => {
+  template = ` <h1 class="name-card">${name}</h1>
+              <p>${descrip}</p>
+              <a target="_blank" href="${link}"><button class="btn">Read More</button></a>
+  `;
+  informacion.innerHTML= template;
+}
+const showInfo = () => {
+    info.style.visibility = "visible";
+    info.style.opacity = "1";
+    info.style.width = "30%";
+    info.style.padding = "1% 1% 1% 1%";
+}
+const closeInfo = () => {
+    info.style.visibility = "collapse";
+    info.style.opacity = "0";
+    info.style.width = "0%";
+    info.style.padding = "0% 0% 0% 0%";
+}
 
 const pintarSkills = async () => {
   let templateC = "", templateD = "", templateDO = "", tem="";
   await dataSkills.forEach(function (skill) {
     let typeSkill = skill.type;
+    tem="";
     tem = `
-        <li class="complete-card">
+        <li class="complete-card" onclick="showInfo();
+        chargeInfo('${skill.alter}','${skill.descrip}','${skill.link}');" >
           <p class="card-name">${skill.alter}</p>
           <div class="frame-card">
             <div class="card" id="card">
@@ -131,7 +159,6 @@ const pintarSkills = async () => {
         designSkills.innerHTML = templateD;
         break;
     }
-    tem="";
   });
 };
 const init = async () => {

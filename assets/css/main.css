@@ -214,6 +214,15 @@ main p {
   box-shadow: 0 0 10px #6d9788;
 }
 
+
+/* .info_skill{
+  display: flex;
+  flex-direction: row;
+  padding: 2% 5% 2% 5%;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e2528;
+} */
 .experience {
   box-shadow: -10px 0 10px #6d9788;
 }

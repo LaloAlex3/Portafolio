@@ -82,34 +82,34 @@
         "time":"2 años",
         "img":"https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg",
         "alter":"Bootstrap"
-    },
-    {
-        "type":"design",
-        "level":"Intermedio",
-        "time":"2 años",
-        "img":"https://cdn.worldvectorlogo.com/logos/excel-4.svg",
-        "alter":"Excel"
-    },
-    {
-        "type":"design",
-        "level":"Avanzado",
-        "time":"4 años",
-        "img":"https://cdn.worldvectorlogo.com/logos/word-1.svg",
-        "alter":"Word"
-    },
-    {
-        "type":"design",
-        "level":"Intermedio",
-        "time":"2 años",
-        "img":"https://www.vectorlogo.zone/logos/adobe_acrobat/adobe_acrobat-tile.svg",
-        "alter":"Adobe Acrobat"
-    },
+    }, 
     {
         "type":"design",
         "level":"Básico",
         "time":"1 año",
         "img":"https://smartinwi.com/wp-content/uploads/2020/09/autodesk-inventor-logo.png",
         "alter":"Inventor"
+    },
+    {
+        "type":"",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"",
+        "alter":""
+    },
+    {
+        "type":"devOps",
+        "level":"Avanzado",
+        "time":"4 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/office-1.svg",
+        "alter":"Office"
+    },
+    {
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://www.vectorlogo.zone/logos/adobe_acrobat/adobe_acrobat-tile.svg",
+        "alter":"Adobe Acrobat"
     },
     {
         "type":"devOps",
