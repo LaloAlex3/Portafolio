@@ -19,7 +19,7 @@ gsap.utils.toArray("section").forEach((section, index) => {
 
 //animated-tab-bar
 "use strict";
-const images = ["https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg","https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_960_720.jpg","https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"];
+const images = ["https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg", "https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_960_720.jpg", "https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"];
 const bgColorsBody = ["#77b1a9a6", "#3d7b80a6", "#6d9788a6"];
 const body = document.querySelector("#skills");
 const selectOptions = document.querySelector("#select-options");
@@ -33,6 +33,7 @@ let activeItem = menu.querySelector(".active");
 const codingSkills = document.querySelector("#coding-skills");
 const devopsSkills = document.querySelector("#devops-skills");
 const designSkills = document.querySelector("#design-skills");
+const proyects = document.querySelector("#proyects");
 
 const coding = document.getElementById("skills-cards-codign");
 const devop = document.getElementById("skills-cards-devops");
@@ -49,16 +50,16 @@ let dataSkills, dataProyects, dataExperience, dataEducation;
 
 
 function showSkills(index) {
-  if(index == 0){
-    coding.style.display="";
+  if (index == 0) {
+    coding.style.display = "";
     devop.style.display = "none";
     design.style.display = "none";
-  }else if(index == 1){
+  } else if (index == 1) {
     coding.style.display = "none";
     devop.style.display = "";
     design.style.display = "none";
   }
-  else if(index == 2){
+  else if (index == 2) {
     coding.style.display = "none";
     devop.style.display = "none";
     design.style.display = "";
@@ -102,38 +103,39 @@ window.addEventListener("resize", () => {
 //Consumimos los archivos
 const loadData = async () => {
   dataSkills = await fetch(fileSkills).then(async (response) => await response.json());
-  // dataProyects = await fetch(fileProyects).then(async (response) => await response.json());
+  dataProyects = await fetch(fileProyects).then(async (response) => await response.json());
   // dataExperience = await fetch(fileExperience).then(async (response) => await response.json());
   // dataEducation = await fetch(fileEducation).then(async (response) => await response.json());
 }
-let template = "";
-const chargeInfo = (name,descrip,link) => {
-  template = ` <h1 class="name-card">${name}</h1>
-              <p>${descrip}</p>
+
+const chargeInfo = (name, descrip, link) => {
+  let template = "";
+  template = `<h1 class="name-card">${name}</h1>
+              <p class="info-card">${descrip}</p>
               <a target="_blank" href="${link}"><button class="btn">Read More</button></a>
   `;
-  informacion.innerHTML= template;
+  informacion.innerHTML = template;
 }
 const showInfo = () => {
-    info.style.visibility = "visible";
-    info.style.opacity = "1";
-    info.style.width = "30%";
-    info.style.padding = "1% 1% 1% 1%";
+  info.style.visibility = "visible";
+  info.style.opacity = "1";
+  info.style.width = "30%";
+  info.style.padding = "1% 1% 1% 1%";
 }
 const closeInfo = () => {
-    info.style.visibility = "collapse";
-    info.style.opacity = "0";
-    info.style.width = "0%";
-    info.style.padding = "0% 0% 0% 0%";
+  info.style.visibility = "collapse";
+  info.style.opacity = "0";
+  info.style.width = "0%";
+  info.style.padding = "0% 0% 0% 0%";
 }
 
 const pintarSkills = async () => {
-  let templateC = "", templateD = "", templateDO = "", tem="";
+  let templateC = "", templateD = "", templateDO = "", tem = "";
   await dataSkills.forEach(function (skill) {
     let typeSkill = skill.type;
-    tem="";
+    tem = "";
     tem = `
-        <li class="complete-card" onclick="showInfo();
+        <li id="${skill.alter}" class="complete-card" onclick="showInfo();
         chargeInfo('${skill.alter}','${skill.descrip}','${skill.link}');" >
           <p class="card-name">${skill.alter}</p>
           <div class="frame-card">
@@ -145,7 +147,7 @@ const pintarSkills = async () => {
           </div>
         </li>
     `;
-    switch(typeSkill){
+    switch (typeSkill) {
       case "coding":
         templateC += tem;
         codingSkills.innerHTML = templateC;
@@ -161,9 +163,26 @@ const pintarSkills = async () => {
     }
   });
 };
+
+const pintarProyects = async () => {
+  let templateProyect = "";
+  await dataProyects.forEach(function (proyect) {
+    templateProyect += `
+          <div class="card_2" style="background-image:url(${proyect.img});">
+            <div class="content">
+                <h2 class="title">${proyect.name}</h2>
+                <p class="copy">${proyect.descrip}</p>
+                <a target="_blank" href="${proyect.url}"><button class="btn">Show now</button></a>
+            </div>
+          </div>
+    `;
+    proyects.innerHTML = templateProyect;
+  });
+}
 const init = async () => {
   await loadData();
   pintarSkills();
+  pintarProyects();
 }
 
 init();

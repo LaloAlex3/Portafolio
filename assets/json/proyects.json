@@ -1,8 +1,9 @@
 [
-    {
+    { 
+        "name": "Azc Me UAM!",
+        "descrip": "Aplicacion web para apoyo educativo para alumnos de la carrera de ingenieria en computación de la UAM Azcapotzalco",
+        "url": "https://azcmeuam.000webhostapp.com",
+        "img": "https://azcmeuam.000webhostapp.com/UsuarioFinal/assets/pictures/IMG_0119.jpg"
 
-    },
-    {
-        
     }
 ]

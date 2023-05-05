@@ -151,7 +151,9 @@
     text-align: center;
     justify-content: center;
 }
-
+.info-card{
+    font-size: medium;
+}
 .frame-card:hover{
     background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
     padding: 2.5%;
