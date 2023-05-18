@@ -137,12 +137,14 @@ const pintarSkills = async () => {
     tem = `
         <li id="${skill.alter}" class="complete-card" onclick="showInfo();
         chargeInfo('${skill.alter}','${skill.descrip}','${skill.link}');" >
-          <p class="card-name">${skill.alter}</p>
           <div class="frame-card">
             <div class="card" id="card">
               <img src="${skill.img}"
                 alt="${skill.alter}" srcset="">
-              <h3 class="name-card">${skill.level}<br>${skill.time}</h3>
+                <tool-tip role="tooltip">
+                   <b>${skill.alter}</b>
+                </tool-tip> 
+              <h3 class="name-card">${skill.level}<br>${skill.time}</h3> 
             </div>
           </div>
         </li>
