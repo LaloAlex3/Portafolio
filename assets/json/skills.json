@@ -1,0 +1,227 @@
+[
+    {
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"3 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/java-4.svg",
+        "alter":"Java",
+        "descrip":"Java es un lenguaje de programación ampliamente utilizado para codificar aplicaciones web.<br><br>Es un lenguaje de programación rápido, seguro y confiable para codificarlo todo, desde aplicaciones móviles y software empresarial hasta aplicaciones de macrodatos y tecnologías del servidor.",
+        "link":"https://aws.amazon.com/es/what-is/java/"
+    },
+    {
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"3 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/c-1.svg",
+        "alter":"C",
+        "descrip":"C es un lenguaje de programación (considerado como uno de lo más importantes en la actualidad) con el cual se desarrollan tanto aplicaciones como sistemas operativos a la vez que forma la base de otros lenguajes más actuales como Java, C++ o C#.",
+        "link":"https://openwebinars.net/blog/que-es-c/"
+    },
+    {  
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"3 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/c.svg",
+        "alter":"C++",
+        "descrip":"C++ es un lenguaje de programación que proviene de la extensión del lenguaje C para que pudiese manipular objetos. <br> A pesar de ser un lenguaje con muchos años, su gran potencia lo convierte en uno de los lenguajes de programación más demandados en 2020.",
+        "link":"https://openwebinars.net/blog/que-es-cpp/"
+    },
+    {  
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"3 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
+        "alter":"JavaScript",
+        "descrip":"JavaScript es uno de los lenguajes de programación más demandado y se encuentra presente en prácticamente cualquier aplicación web.<br><br>Para muchas personas JavaScript es el amigo oculto de la web.",
+        "link":"https://openwebinars.net/blog/que-es-javascript/"	
+    },
+    {
+        "type":"coding",
+        "level":"Básico",
+        "time":"6 meses",
+        "img":"https://cdn.worldvectorlogo.com/logos/c--4.svg",
+        "alter":"C#",
+        "descrip":"C# es un lenguaje de programación desarrollado por Microsoft, orientado a objetos, que ha sido diseñado para compilar diversas aplicaciones que se ejecutan en .NET Framework. <br><br>Se trata de un lenguaje simple, eficaz y con seguridad de tipos .",
+        "link":"https://openwebinars.net/blog/que-es-c-introduccion/"
+    },
+    {
+        "type":"coding",
+        "level":"Básico",
+        "time":"6 meses",
+        "img":"https://www.vectorlogo.zone/logos/python/python-vertical.svg",
+        "alter":"Python",
+        "descrip":"Python es un lenguaje de programación versátil multiplataforma y multiparadigma que se destaca por su código legible y limpio. <br><br>Este lenguaje se encuentra presente en multitud de aplicaciones y sistemas operativos. Podemos encontrarlo corriendo en servidores, en aplicaciones iOS, Android, Linux, Windows o Mac.  ",
+        "link":"https://openwebinars.net/blog/que-es-python/"
+    },
+    {
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png",
+        "alter":"HTML",
+        "descrip":"HTML es el lenguaje con el que se define el contenido de las páginas web. Básicamente se trata de un conjunto de etiquetas que sirven para definir el texto y otros elementos que compondrán una página web, como imágenes, listas, vídeos, etc.",
+        "link":"https://desarrolloweb.com/articulos/que-es-html.html"
+    },
+    {
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png",
+        "alter":"CSS",
+        "descrip":"CSS (siglas en inglés de Cascading Style Sheets), en español (Hojas de estilo en cascada), es un lenguaje de marcas enfocado a definir, crear y mejorar la presentación de un documento basado en HTML. <br><br> HTML actuaría como es esqueleto de la web, definiendo su estructura básica, y el CSS añadiría toda la capa de personalización sobre el que la web define su aspecto final.",
+        "link":"https://openwebinars.net/blog/que-es-css/"
+    },
+    {
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://www.vectorlogo.zone/logos/php/php-icon.svg",
+        "alter":"PHP",
+        "descrip":"PHP son las siglas en inglés del acrónimo Hypertext Pre-Processor, es decir, pre-procesador de hipertexto. <br>Es un lenguaje de programación de propósito general que se ejecuta en el lado del servidor.",
+        "link":"https://openwebinars.net/blog/que-es-php/"
+    },
+    {
+        "type":"coding",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg",
+        "alter":"Bootstrap",
+        "descrip":"Bootstrap es un framework CSS de código abierto que favorece el desarrollo web de un modo más sencillo y rápido. Incluye plantillas de diseño basadas en HTML y CSS con la que es posible modificar tipografías, formularios, botones, tablas, navegaciones, menús desplegables, etc. También existe la posibilidad de utilizar extensiones de Javascript adicionales.",
+        "link":"https://www.arimetrics.com/glosario-digital/bootstrap"
+    }, 
+    {
+        "type":"devOps",
+        "level":"Avanzado",
+        "time":"4 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/office-1.svg",
+        "alter":"Office",
+        "descrip":"Office 365 es la suite de Microsoft que nos permite trabajar con las herramientas de Office de toda la vida y las herramientas de colaboración más actuales, desde cualquier dispositivo y en cualquier lugar del mundo.",
+        "link":"https://www.claranet.es/blog/que-es-office-365"
+    },
+    {
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://www.vectorlogo.zone/logos/adobe_acrobat/adobe_acrobat-tile.svg",
+        "alter":"Adobe Acrobat",
+        "descrip":"Adobe Acrobat es una de las aplicaciones de PDF de la que fue pionera Adobe Systems. <br><br> Este software te permite ver archivos PDF fuera de línea y en línea. <br>También permite crear, editar, gestionar e imprimir archivos PDF con facilidad.",
+        "link":""
+    },
+    {
+        "type":"devOps",
+        "level":"Avanzado",
+        "time":"5 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg",
+        "alter":"Visual Studio Code",
+        "descrip":"Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft. Es software libre y multiplataforma, está disponible para Windows, GNU/Linux y macOS. <br><br>VS Code tiene una buena integración con Git, cuenta con soporte para depuración de código, y dispone de un sinnúmero de extensiones, que básicamente te da la posibilidad de escribir y ejecutar código en cualquier lenguaje de programación.",
+        "link":"https://openwebinars.net/blog/que-es-visual-studio-code-y-que-ventajas-ofrece/"
+    },
+    {  
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"3 años",
+        "img":"https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
+        "alter":"MySQL",
+        "descrip":"MySQL es un sistema de gestión de bases de datos que cuenta con una doble licencia. Por una parte es de código abierto, pero por otra, cuenta con una versión comercial gestionada por la compañía Oracle.",
+        "link":"https://openwebinars.net/blog/que-es-mysql/"
+    },
+    {
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://www.vectorlogo.zone/logos/phpmyadmin/phpmyadmin-ar21.svg",
+        "alter":"phpMyAdmin",
+        "descrip":"PhpMyAdmin es una aplicación web que sirve para administrar bases de datos MySQL de forma sencilla y con una interfaz amistosa. Se trata de un software muy popular basado en PHP. <br><br>La ventaja de usar una aplicación web es que nos permite conectarnos con servidores remotos, a los cuales no siempre se puede acceder usando programas de interfaz gráfica.",
+        "link":"https://www.arsys.es/blog/phpmyadmin"
+    },
+    {
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+        "alter":"Git",
+        "descrip":"Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad. Los desarrolladores confirman su trabajo localmente y, a continuación, sincronizan su copia del repositorio con la copia en el servidor.",
+        "link":"https://learn.microsoft.com/es-es/devops/develop/git/what-is-git"
+    },
+    {
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://cdn.iconscout.com/icon/free/png-512/free-github-1521500-1288242.png?f=avif&w=256",
+        "alter":"GitHub",
+        "descrip":"Github es una herramienta que nos permite tener nuestros repositiorios de Git en la nube. Esto nos permite centralizar el contenido del repositorio para poder colaborar con otros miembros de nuestra organización.",
+        "link":"https://openwebinars.net/blog/que-es-github/"
+    },
+    {
+        "type":"devOps",
+        "level":"Intermedio",
+        "time":"2 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/xampp.svg",
+        "alter":"Xampp",
+        "descrip":"XAMPP es una distribución de Apache que incluye varios software libres. <br><br> El nombre es un acrónimo compuesto por las iniciales de los programas que lo constituyen: el servidor web Apache, los sistemas relacionales de administración de bases de datos MySQL y MariaDB, así como los lenguajes de programación Perl y PHP. La inicial X se usa para representar a los sistemas operativos Linux, Windows y Mac OS X.",
+        "link":"https://www.ionos.mx/digitalguide/servidores/herramientas/instala-tu-servidor-local-xampp-en-unos-pocos-pasos/"
+    },
+    {
+        "type":"devOps",
+        "level":"Básico",
+        "time":"6 meses",
+        "img":"https://cdn.worldvectorlogo.com/logos/postman.svg",
+        "alter":"postman",
+        "descrip":"Postman en sus inicios nace como una extensión que podía ser utilizada en el navegador Chrome de Google y básicamente nos permite realizar peticiones de una manera simple para testear APIs de tipo REST propias o de terceros.",
+        "link":"https://openwebinars.net/blog/que-es-postman/"
+    },
+    {
+        "type":"devOps",
+        "level":"Básico",
+        "time":"6 meses",
+        "img":"https://cdn.worldvectorlogo.com/logos/npm.svg",
+        "alter":"NPM",
+        "descrip":"NPM es un gestor dependencias de JavaScript, de hecho, es el gestor por defecto de todo el ecosistema de NodeJS.<br><br>Viene empaquetado con NodeJS, por lo que en cuanto lo instalemos, de cualquiera de las formas posibles, vamos a tener automáticamente instalado NPM. ",
+        "link":"https://openwebinars.net/blog/que-es-npm/"
+    },
+    {
+        "type":"devOps",
+        "level":"Básico",
+        "time":"6 meses",
+        "img":"https://cdn.worldvectorlogo.com/logos/nodejs.svg",
+        "alter":"Node.js",
+        "descrip":"Node.js es un entorno de tiempo de ejecución de JavaScript (de ahí su terminación en .js haciendo alusión al lenguaje JavaScript). Este entorno de tiempo de ejecución en tiempo real incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. ",
+        "link":"https://openwebinars.net/blog/que-es-nodejs/"
+    },
+    {
+        "type":"design",
+        "level":"Avanzado",
+        "time":"5 años",
+        "img":"https://seeklogo.com/images/A/adobe-lightroom-logo-FF1AAA233D-seeklogo.com.png",
+        "alter":"Lightroom",
+        "descrip":"Adobe Photoshop Lightroom es una aplicación sencilla pensada para trabajar en la edición de imágenes digitales. Gracias a este software podemos organizar, editar y compartir nuestras fotografías a través de un ordenador, smartphone o tablet. Se trata de una herramienta muy versátil para llevar a cabo las tareas diarias de cualquier fotógrafo digital.",
+        "link":"https://www.inesem.es/revistadigital/diseno-y-artes-graficas/que-es-adobe-photoshop-lightroom-para-que-se-utiliza/"
+    },
+    {
+        "type":"design",
+        "level":"Avanzado",
+        "time":"5 años",
+        "img":"https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg",
+        "alter":"Photoshop",
+        "descrip":"Adobe Photoshop es un programa informático de edición de imagen, destinada al diseño gráfico, diseño web, 3D y fotografía, se trata de uno de los programa más utilizado en el mundo, ya no solo a nivel fotográfico sino en líneas generales. ",
+        "link":"https://www.arimetrics.com/glosario-digital/photoshop"
+    },
+    {
+        "type":"design",
+        "level":"Básico",
+        "time":"1 año",
+        "img":"https://smartinwi.com/wp-content/uploads/2020/09/autodesk-inventor-logo.png",
+        "alter":"Inventor",
+        "descrip":"Autodesk Inventor es un software de modelado paramétrico de sólidos en 3D.<br><br>Inventor ofrece herramientas profesionales y específicas para el diseño mecánico 3D, documentación y simulación de productos, lo que facilita el trabajo de diseño de productos.También se pueden incluir en el diseño imágenes y texto 2D así como introducir efectos de sombreado o relleno.",
+        "link":"https://www.nke360.es/autodesk-inventor-que-es-y-ventajas/#:~:text=Inventor%20aporta%20una%20extensa%20gama,de%20dibujo%20e%20insertar%20anotaciones."
+    },
+    {
+        "type":"",
+        "level":"",
+        "time":"",
+        "img":"",
+        "alter":"",
+        "descrip":"",
+        "link":""
+    }
+]
