@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Yungblud",
+        "class": "panel active",
+        "src": "assets/img/first.jpg"
+    },
+    {
+        "name": "Wild Forest",
+        "class": "panel",
+        "src": "assets/img/forest-5442598_1280.jpg"
+    },
+    {
+        "name": "Sunny Beach",
+        "class": "panel",
+        "src": "assets/img/beach-2836300_1280.jpg"
+    },
+    {
+        "name": "Nigth City",
+        "class": "panel",
+        "src": "assets/img/sunset-8170058_1280.jpg"
+    },
+    {
+        "name": "MountainsClouds",
+        "class": "panel",
+        "src": "assets/img/mountains-862870_1280.jpg"
+    }
+]
